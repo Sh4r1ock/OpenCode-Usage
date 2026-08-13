@@ -1,0 +1,9 @@
+# OpenCode Usage 运行依赖
+# 安装：pip install -r requirements.txt
+# 说明：
+#   httpx       纯 HTTP 爬取 opencode.ai usage API
+#   openpyxl    读写 Excel（opencode_usage_history.xlsx）
+#   playwright  OAuth 登录（仅当缓存登录态失效时使用，平时爬取不加载）
+httpx
+openpyxl
+playwright
